@@ -39,4 +39,23 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  server: {
+    host: '0',
+    port: 1234,
+},
+  tailwindcss: {
+    config: {
+      theme: {
+        extend: {
+        colors: {
+          'nzgradient-start': '#5723DF',
+          'nzgradient-end': '#5AC5E5',
+          'nzflat': '#597AE2',
+          'black': '#000000',
+        },
+      },
+      },
+    },
+},
 }
